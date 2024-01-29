@@ -1,0 +1,24 @@
+
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  font-weight: 600;
+  color: var(--color-brand-light);
+}
+.link-about {
+  color: var(--color-brand-light);
+  text-decoration: none;
+}
+
+.link-about:hover {
+  font-weight: 600;
+  color: var(--color-brand-light);
+}

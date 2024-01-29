@@ -1,0 +1,17 @@
+.procedures-conteiner {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.procedures-content {
+  flex-basis: calc((100% - 40px / 3));
+}
+
+.procedures-list {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+

@@ -1,0 +1,57 @@
+.why-section {
+  padding-top: 176px;
+  padding-bottom: 48px;
+  
+  &__conteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+&__list {
+  // display: flex;
+  gap: 12px;
+  // flex-direction: column;
+
+   @media screen and (min-width: $bp-desktop){
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+   }
+}
+
+&__card {
+  border-radius: 32px;
+  background-color: #fff;
+}
+
+&__text {
+  color: var(--color-primery-dark);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3333;
+  text-align: center;
+  padding: 24px 32px;
+  margin: 0;
+}
+
+&__icons {
+  fill: var(--color-brand-light);
+  display: flex;
+  justify-content: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

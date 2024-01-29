@@ -1,0 +1,98 @@
+.hero-section {
+  background-image: url('../images/hero-section-background.jpg');
+  background-repeat: no-repeat;
+  padding-top: 70.72px;
+  background-size: cover;
+  background-position: right;
+  
+  @media screen and (min-width: $bp-desktop){
+   padding-top: 123.12px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),(min-resolution: 192dpi),(min-resolution: 2dppx){
+    background-image: url('../images/hero-section-background@2x.jpg');
+  }
+ 
+  &__conteiner{
+  
+  align-items: center;
+   display: flex;
+   flex-direction: column;
+  
+
+  @media screen and (min-width: $bp-desktop){
+   align-items: flex-start;
+   display: flex;
+   flex-direction: column;
+   margin-left: 200px;
+  }
+}
+
+
+  &__title {
+  font-size: 12px;
+  margin-bottom: 0px;
+
+
+  @media screen and (min-width: $bp-desktop) {
+  color: var(--color-brand-dark);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  }
+}
+
+
+
+
+&__titles {
+   color: var(--color-brand-light);
+   font-size: 54px;
+   font-weight: 700;
+   line-height: 0.85185;
+   text-transform: capitalize;
+   font-family: 'Play', sans-serif;
+   margin-bottom: 32px;
+
+
+  @media screen and (min-width: $bp-desktop) { 
+  margin-top: 16px;
+  margin-bottom: 40px;
+  color: var(--color-brand-light);
+  font-size: 140px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 0.81429;
+  font-style: normal;
+  font-family: 'Play', sans-serif;
+  text-align: left;
+  width: 529px;
+ 
+  }
+}
+
+&__text {
+   margin-bottom: 0px;
+   font-size: 11px;
+   line-height: 1.636;
+   font-weight: 400;
+   
+  
+  
+   @media screen and (min-width: $bp-desktop) {
+   
+   font-size: 12px;
+   font-style: normal;
+   line-height: 1.5;
+   text-align: left;
+   
+   
+  }
+}
+
+
+}
+
+
+
+

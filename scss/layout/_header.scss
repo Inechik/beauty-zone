@@ -1,0 +1,89 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+ @media screen and (min-width: $bp-desktop){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5px);
+ } 
+
+  &__conteiner {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  
+}
+
+img#logo{
+width:  57px;
+
+@media screen and (min-width: $bp-desktop){
+width: 74px;
+}
+}
+
+&__nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  gap: 40px;
+  padding-top: 15.72px;
+
+ @media screen and (min-width: $bp-desktop){
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  gap: 40px;
+  padding: 32px;
+ } 
+
+}
+
+&__menu {
+  display: none;
+
+  @media screen and (min-width: $bp-desktop) {  
+  display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
+  }
+}
+
+
+&__burger{
+  background-color:transparent;
+  border: none;
+  width:  24px ;
+  height: 24px;
+  padding: 0;
+  fill: var(--color-primery-light);
+
+@media screen and (min-width: $bp-desktop) {
+  display: none;
+  }
+}
+
+&__address-icon-header {
+   display: none;
+   
+
+  @media screen and (min-width: $bp-desktop) {
+  
+  display: flex;
+  gap: 32px;
+  }
+}
+
+&__address-icon{
+color: var(--color-brand-dark);
+}
+}
+
+
+

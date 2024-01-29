@@ -1,0 +1,151 @@
+.about-section {
+  padding-top: 56px;
+  padding-bottom: 104px;
+
+  @media screen and (min-width: $bp-desktop){
+    padding-top: 166.48px;
+    padding-bottom: 199px;
+  }
+
+  &__background {
+    
+  background-image: url(../images/background\ why-section.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media screen and (min-width: $bp-desktop){
+  background-image: url(../images/background\ why-section@2x.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+
+&__star1{
+  position: absolute;
+  display: flex;
+  top: 340px;
+  left: 263px;
+  fill: var(--color-star1);
+  
+@media screen and (min-width: $bp-desktop){
+  display: none;
+}
+
+}
+
+&__conteiner{
+  position: relative;
+  display: flex;
+}
+  
+
+&__content {
+  gap: 16px;
+  
+
+  @media screen and (min-width: $bp-desktop){
+     align-items: flex-start;
+     gap: 40px;
+     max-width: 710px;
+  }
+
+  
+  @media screen and (min-width: $bp-desktop){
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 710px;
+  }
+}
+
+&__beauty-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  
+   @media screen and (min-width: $bp-desktop){
+    margin-bottom: 0px;
+    color: var(--color-brand-dark);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Play', sans-serif;
+   }
+
+  &--accent {
+   text-transform: capitalize;
+   color: var(--color-brand-light);
+   font-weight: 700;
+
+   @media screen and (min-width: $bp-desktop){
+    text-transform: capitalize;
+    color: var(--color-brand-light);
+   }
+}
+}
+
+
+
+&__quality-text {
+  font-size: 18px;
+  line-height: normal;
+  
+  
+
+  @media screen and (min-width: $bp-desktop){
+  margin-bottom: 0;
+  color: var(--color-brand-dark);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.72;
+  }
+
+  &--brand {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+
+    
+
+  @media screen and (min-width: $bp-desktop){
+  color: var(--color-brand-dark);
+  font-weight: 600;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.7272px;
+  text-transform: capitalize;
+  }
+}
+}
+
+
+
+&__services-text {
+ font-size: 18px;
+ line-height: normal;
+ margin-bottom: 16px;
+
+ @media screen and (min-width: $bp-desktop){
+  margin-bottom: 0;
+  color: var(--color-brand-dark);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.72;
+ } 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

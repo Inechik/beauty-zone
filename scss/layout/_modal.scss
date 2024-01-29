@@ -1,0 +1,76 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  transition: opacity 0.2s, visibility 0.2s;
+
+  &.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+}
+
+}
+.modal {
+  position: relative;
+  width: 100%;
+  width: 723px;
+  height: 681px;
+  flex-shrink: 0;
+  max-width: 723px;
+  background-color: var(--color-brand-dark);
+  border-radius: 48px;
+  padding: 42px 144px;
+  color: var(--color-primery-light);
+
+  &__btn-close {
+  position: absolute;
+  top: 42px;
+  right: 42px;
+}
+
+&__button{
+  
+  margin: 0 auto 8px;
+}
+
+&__title{
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Play',sans-serif;
+
+}
+
+&__text{
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 32px;
+
+   &--brand {
+  color: var(--color-brand-light);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+}
+}
+
+
+

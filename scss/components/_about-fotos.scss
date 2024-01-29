@@ -1,0 +1,76 @@
+
+
+  .foto-conteiner {
+  display: none;
+  
+
+@media screen and (min-width: $bp-desktop){
+  display: block;
+  position: relative;
+  max-width: 500px;
+  display: flex;
+
+  
+
+
+}
+
+  &__about-foto-black {
+
+border-radius: 160px;
+position: absolute;
+left: 28px;
+top: -40px;
+}
+
+&__about-foto-wite {
+
+border-radius: 50%;
+position: absolute;
+left: 190px;
+top: 360px;
+
+   }
+
+
+
+&__star1 {
+  position: absolute;
+  top: 336px;
+  left: 149px;
+  fill: var(--color-star1);
+  animation: spin 2s infinite linear;
+
+}
+
+&__star2 {
+  position: absolute;
+  left: 1270px;
+  fill: var(--color-brand-light);
+  animation: spin 2s infinite linear;
+  position: absolute;
+  left: 503px;
+  fill: var(--color-brand-light);
+  animation: spin 2s infinite linear;
+   }
+
+
+&__star3 {
+  position: absolute;
+  left: 504px;
+  top: 183px;
+  fill: var(--color-star3);
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0) scale(0);
+  }
+
+  to {
+    transform: rotate(360deg) scale(1.05);
+  }
+}
+}
+

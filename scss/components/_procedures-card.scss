@@ -1,0 +1,37 @@
+.procedures-card {
+  border-radius: 120px 4px;
+  width: 344px;
+  height: 456px;
+  flex-shrink: 0;
+  background-image: linear-gradient( #011C4400, #011C44B9, #011C44);
+  transition: transform 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.procedures-card:hover {
+  transform: scale(1.05);
+}
+
+.procedures-text {
+  color: var(--color-background);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.18;
+  padding-top: 372px;
+  padding-right: 77px;
+  padding-bottom: 32px;
+  padding-left: 115px;
+  margin: 0;
+}
+
+.procedures-image {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}

@@ -1,0 +1,41 @@
+.input {
+  margin-bottom: 24px;
+
+  &__lable {
+  display: block;
+}
+
+&__control-contact {
+  padding: 18px 32.85px;
+  width: 310px;
+  height: 52px;
+  border-radius: 32px;
+  border: 2px solid var(--color-star3);
+  font-size: 13px;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+}
+
+&__control {
+  padding: 18px 32.85px;
+  width: 100%;
+  border-radius: 32px;
+  border: 2px solid var(--color-star3);
+  font-size: 13px;
+  background-color: transparent;
+
+  &::placeholder {
+  color: var(--color-star3);
+}
+
+  &:focus {
+  background-color: var(--color-star3);
+  outline: none;
+
+  &:focus::placeholder {
+  color: var(--color-primery-light);
+}
+}
+}
+}
