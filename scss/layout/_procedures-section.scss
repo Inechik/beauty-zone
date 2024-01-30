@@ -1,17 +1,13 @@
-.procedures-conteiner {
+.procedures-section {
+  
+  &__slider{
   display: flex;
   gap: 32px;
   justify-content: center;
   align-items: center;
 }
 
-.procedures-content {
-  flex-basis: calc((100% - 40px / 3));
+&__conteiner{
+  overflow: hidden;
 }
-
-.procedures-list {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
 }
-
