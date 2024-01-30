@@ -7,6 +7,10 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header class="header">
@@ -195,7 +199,7 @@
             </div>
           </div>
         </section>
-        <!-- <section class="procedures-section section" id="procedures-section">
+        <section class="procedures-section section" id="procedures-section">
           <div class="conteiner">
             <h2 class="procedures-section__title section__title">
               Наші
@@ -203,45 +207,86 @@
                 >процедури</span
               >
             </h2>
-            <div class="procedures-conteiner">
-              <button class="carousel-button" type="button">
+            <div class="procedures-section__slider">
+              <button
+                class="procedures-section__button carousel-button prev"
+                type="button"
+              >
                 <svg width="16" height="16">
                   <use href="./images/icons.svg#icon-Arrow2"></use>
                 </svg>
               </button>
 
-              <ul class="procedures-list">
-                <li class="procedures-content">
-                  <article class="procedures-card">
-                    <img
-                      class="procedures-image"
-                      src="./images/маска.jpg"
-                      alt="маска"
-                    />
-                    <h3 class="procedures-text">Маски для обличчя</h3>
-                  </article>
-                </li>
-                <li class="procedures-content">
-                  <article class="procedures-card">
-                    <img
-                      class="procedures-image"
-                      src="./images/ін'єкції.jpg"
-                      alt="ін'єкції"
-                    />
-                    <h3 class="procedures-text">Ін'єкції для обличчя</h3>
-                  </article>
-                </li>
-                <li class="procedures-content">
-                  <article class="procedures-card">
-                    <img
-                      class="procedures-image"
-                      src="./images/чистка.jpg"
-                      alt="чистка"
-                    />
-                    <h3 class="procedures-text">Очищення обличчя</h3>
-                  </article>
-                </li>
-              </ul>
+              <div class="procedures-section__conteiner swiper-conteiner">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <article class="procedures-card">
+                      <img
+                        class="procedures-image"
+                        src="./images/маска.jpg"
+                        alt="маска"
+                      />
+                      <h3 class="procedures-text">Маски для обличчя</h3>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="procedures-card">
+                      <img
+                        class="procedures-image"
+                        src="./images/ін'єкції.jpg"
+                        alt="ін'єкції"
+                      />
+                      <h3 class="procedures-text">Ін'єкції для обличчя</h3>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="procedures-card">
+                      <img
+                        class="procedures-image"
+                        src="./images/чистка.jpg"
+                        alt="чистка"
+                      />
+                      <h3 class="procedures-text">Очищення обличчя</h3>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="procedures-card">
+                      <img
+                        class="procedures-image"
+                        src="./images/маска.jpg"
+                        alt="маска"
+                      />
+                      <h3 class="procedures-text">Маски для обличчя</h3>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="procedures-card">
+                      <img
+                        class="procedures-image"
+                        src="./images/ін'єкції.jpg"
+                        alt="ін'єкції"
+                      />
+                      <h3 class="procedures-text">Ін'єкції для обличчя</h3>
+                    </article>
+                  </li>
+                  <li class="swiper-slide">
+                    <article class="procedures-card">
+                      <img
+                        class="procedures-image"
+                        src="./images/чистка.jpg"
+                        alt="чистка"
+                      />
+                      <h3 class="procedures-text">Очищення обличчя</h3>
+                    </article>
+                  </li>
+                </ul>
+                <div class="pagination">
+                  <span class="pagination__button"></span>
+                  <span class="pagination__button"></span>
+                  <span class="pagination__button"></span>
+                  <span class="pagination__button"></span>
+                </div>
+              </div>
 
               <button class="carousel-button next" type="button">
                 <svg width="16" height="16">
@@ -250,7 +295,7 @@
               </button>
             </div>
           </div>
-        </section> -->
+        </section>
       </div>
 
       <!-- <section class="contacts-section section" id="contacts-section">
@@ -488,6 +533,9 @@
         </form>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/procedures-slider.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
